@@ -6,7 +6,7 @@ a software engineer.
 
 ## 🌐 Visit My Website
 
-[Explore my portfolio](https://orgil-portfolio.github.io/orgil-portfolio/)
+[Explore my portfolio](https://orgilbna22-code.github.io/orgil-portfolio/)
 
 ## ✨ Features
 
