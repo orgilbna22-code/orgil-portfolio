@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121510">
+  <title>Orgil — Learning. Building. Becoming.</title>
+  <meta name="description" content="Orgil’s personal portfolio: Python experiments, useful software, and a path toward software engineering.">
+  <link rel="canonical" href="https://orgil-builds.orgilxsenzu.chatgpt.site/">
+  <meta property="og:title" content="Orgil — Learning. Building. Becoming.">
+  <meta property="og:description" content="Python experiments, useful software, and a path toward software engineering.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://orgil-builds.orgilxsenzu.chatgpt.site/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23121510'/%3E%3Cpath d='M32 11 49 18v19L32 53 15 37V18Z' fill='%23c5f464'/%3E%3Ccircle cx='32' cy='30' r='9' fill='none' stroke='%23121510' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Orgil home"><span class="brand-mark" aria-hidden="true">O</span><span>ORGIL<span class="brand-period">.</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#learning" data-i18n="nav.learning">Learning</a>
+    </nav>
+    <div class="header-right"><span class="header-note" data-i18n="header.note">A work in progress. So am I.</span><button class="language-toggle" type="button" aria-label="Switch to Mongolian">EN <span aria-hidden="true">/</span> MN</button></div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-line"></span><span data-i18n="hero.eyebrow">STUDENT. CURIOUS MIND. BUILDER.</span></p>
+        <h1 id="hero-title"><span data-i18n="hero.line1">Learning.</span><span data-i18n="hero.line2">Building.</span><span class="serif" data-i18n="hero.line3">Becoming.</span></h1>
+        <p class="hero-description" data-i18n="hero.description">I’m Orgil, a student in Mongolia learning to turn ideas into software. This is where my experiments become projects.</p>
+        <a class="button button-dark" href="#work" data-i18n="hero.cta">Explore my work</a>
+      </div>
+      <div class="hero-visual" aria-label="A learning loop written in Python">
+        <div class="visual-top"><span>THE BUILDER’S LOOP</span><span class="visual-symbol" aria-hidden="true">{ }</span></div>
+        <div class="code-content"><span class="code-comment" data-i18n="hero.codecomment"># one small step, every day</span><pre><code><span class="code-keyword">while</span> curious:
+    <span class="code-function">learn</span>()
+    <span class="code-function">build</span>()
+    <span class="code-function">repeat</span>()<span class="code-cursor" aria-hidden="true"></span></code></pre></div>
+        <div class="visual-bottom"><span>PYTHON</span><span data-i18n="hero.visualbottom">Small ideas. Real progress.</span></div>
+        <div class="visual-tag"><span aria-hidden="true">✳</span><span data-i18n="hero.tag">Made of curiosity</span></div>
+      </div>
+      <div class="hero-foot"><span data-i18n="hero.foot">From a first line of code to something useful.</span><span class="mono">01 / SELECTED WORK</span></div>
+    </section>
+    <section class="work-section wrap" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="work.eyebrow">IDEAS I’M WORKING ON</p><h2 id="work-title" data-i18n="work.title">Small starts.<br>Meaningful projects.</h2></div><p data-i18n="work.intro">Experiments in computer vision, everyday tools, and technology for my community.</p></div>
+      <div class="projects">
+        <article class="project project-featured">
+          <div class="whiteboard-preview">
+            <div class="preview-top"><span><span class="preview-icon" aria-hidden="true">✳</span> Virtual Whiteboard Pro</span><span class="preview-caption" data-i18n="whiteboard.preview">POINTER DEMO</span></div>
+            <div class="canvas-wrap"><canvas id="sketch" aria-label="Interactive sketchpad. Drag a mouse or finger to draw."></canvas><div class="sketch-prompt"><span class="sketch-plus" aria-hidden="true">+</span><span data-i18n="whiteboard.sketch">An idea starts with a mark.</span><small data-i18n="whiteboard.sketchhint">Drag your mouse or finger to sketch</small></div></div>
+            <div class="preview-bottom"><div class="drawing-colors" role="group" aria-label="Drawing colors"><button class="color-choice active" data-color="#b2ec54" style="--swatch:#b2ec54" type="button" aria-label="Green ink" aria-pressed="true"></button><button class="color-choice" data-color="#ffffff" style="--swatch:#ffffff" type="button" aria-label="White ink" aria-pressed="false"></button><button class="color-choice" data-color="#8aa99b" style="--swatch:#8aa99b" type="button" aria-label="Sage ink" aria-pressed="false"></button></div><button class="clear-sketch" type="button" data-i18n="whiteboard.clear">Clear sketch</button></div>
+          </div>
+          <div class="project-content"><div class="project-meta"><span class="mono">01 / COMPUTER VISION</span><span class="status" data-i18n="status.prototype">Prototype</span></div><h3>Virtual Whiteboard Pro</h3><p data-i18n="whiteboard.description">A Python experiment that turns hand movements into drawing gestures using a camera, OpenCV, and MediaPipe.</p><div class="project-tags"><span>Python</span><span>OpenCV</span><span>MediaPipe</span></div><button class="project-detail" type="button" data-project="whiteboard" data-i18n="work.details">Inside the project <span aria-hidden="true">+</span></button></div>
+        </article>
+        <article class="project">
+          <div class="fire-preview" aria-label="FireWatch UB concept overview"><div class="concept-label"><span>FIREWATCH UB</span><span data-i18n="fire.concept">CONCEPT</span></div><div class="fire-headline" data-i18n="fire.visual">Understand the risk.<br>Before the fire.</div><div class="risk-factors"><div><span class="factor-num">01</span><span data-i18n="fire.factor1">Population density</span></div><div><span class="factor-num">02</span><span data-i18n="fire.factor2">Area conditions</span></div><div><span class="factor-num">03</span><span data-i18n="fire.factor3">Explainable results</span></div></div><p class="concept-note" data-i18n="fire.note">A design concept, without live risk data.</p></div>
+          <div class="project-content"><div class="project-meta"><span class="mono">02 / COMMUNITY & DATA</span><span class="status" data-i18n="status.development">In development</span></div><h3>FireWatch UB</h3><p data-i18n="fire.description">A team project exploring how maps and data could make fire risk in Ulaanbaatar easier to understand.</p><div class="project-tags"><span data-i18n="tag.web">Web development</span><span data-i18n="tag.maps">Maps</span><span data-i18n="tag.team">Team project</span></div><button class="project-detail" type="button" data-project="fire" data-i18n="work.details">Inside the project <span aria-hidden="true">+</span></button></div>
+        </article>
+        <article class="project">
+          <div class="music-preview" aria-label="Offline Music Player interface concept"><div class="concept-label"><span>BOARDING / MUSIC</span><span data-i18n="music.concept">INTERFACE STUDY</span></div><div class="music-inner"><div class="record-symbol" aria-hidden="true"><span>O</span></div><div class="music-title"><span data-i18n="music.visualsmall">YOUR MUSIC, YOUR SPACE</span><strong data-i18n="music.visual">A little more<br>in the moment.</strong></div></div><div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="concept-note" data-i18n="music.note">An interface concept, without audio playback.</span></div>
+          <div class="project-content"><div class="project-meta"><span class="mono">03 / EVERYDAY SOFTWARE</span><span class="status" data-i18n="status.building">Building & refining</span></div><h3 data-i18n="music.title">Offline Music Player</h3><p data-i18n="music.description">Learning to build a desktop player for local music, with a clean interface and a library that feels personal.</p><div class="project-tags"><span>Python</span><span data-i18n="tag.desktop">Desktop app</span><span data-i18n="tag.interface">Interface design</span></div><button class="project-detail" type="button" data-project="music" data-i18n="work.details">Inside the project <span aria-hidden="true">+</span></button></div>
+        </article>
+      </div>
+    </section>
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="wrap about-layout"><div><p class="eyebrow" data-i18n="about.eyebrow">A LITTLE ABOUT ME</p><h2 id="about-title" data-i18n="about.title">Hi, I’m Orgil.<br>Still figuring it out.<br><span class="serif">Still building.</span></h2></div><div class="about-copy"><p class="about-lead" data-i18n="about.lead">I want to become a software engineer. For now, that means asking questions, trying things, and learning why the code works.</p><p data-i18n="about.body">Python is my starting point. I’m also exploring web development, GitHub, and how thoughtful design can make technology easier to use. The projects here are snapshots of that journey.</p><div class="about-values"><div><span class="mono">01</span><span data-i18n="about.value1">Understand the why.</span></div><div><span class="mono">02</span><span data-i18n="about.value2">Make something useful.</span></div><div><span class="mono">03</span><span data-i18n="about.value3">Keep getting better.</span></div></div></div></div></section>
+    <section class="learning-section wrap" id="learning" aria-labelledby="learning-title"><div class="section-heading"><div><p class="eyebrow" data-i18n="learning.eyebrow">WHAT’S NEXT</p><h2 id="learning-title" data-i18n="learning.title">The next chapter<br>is a learning one.</h2></div><p data-i18n="learning.intro">The skills I’m focusing on as I work toward software engineering.</p></div><div class="learning-list"><article><span class="learning-index mono">01</span><h3 data-i18n="learning.python">Python foundations</h3><p data-i18n="learning.pythonbody">Build projects, understand each line, and get more comfortable solving problems.</p><span class="learning-pill" data-i18n="learning.current">Current focus</span></article><article><span class="learning-index mono">02</span><h3 data-i18n="learning.web">Web & GitHub</h3><p data-i18n="learning.webbody">Turn ideas into websites and learn how to save, organize, and share the work.</p><span class="learning-pill neutral" data-i18n="learning.exploring">Exploring</span></article><article><span class="learning-index mono">03</span><h3 data-i18n="learning.english">English & communication</h3><p data-i18n="learning.englishbody">Read more, explain ideas clearly, and make room for opportunities beyond the classroom.</p><span class="learning-pill neutral" data-i18n="learning.ongoing">Ongoing</span></article></div></section>
+    <section class="closing-section wrap"><p class="eyebrow" data-i18n="closing.eyebrow">THE GOAL</p><p class="closing-statement" data-i18n="closing.statement">Learn enough to build.<br>Build enough to <em>learn.</em></p><a class="button button-dark" href="#work" data-i18n="closing.cta">Back to the projects</a></section>
+  </main>
+  <footer class="wrap site-footer"><a class="brand footer-brand" href="#home">ORGIL<span class="brand-period">.</span></a><span data-i18n="footer.text">Learning in public. One project at a time.</span><span class="mono">© <span id="year">2026</span> ORGIL</span></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-content"><div class="dialog-top"><span class="eyebrow" data-i18n="dialog.eyebrow">PROJECT NOTES</span><button class="dialog-close" type="button" aria-label="Close project notes">×</button></div><h2 id="dialog-title"></h2><p class="dialog-summary"></p><dl class="dialog-notes"></dl><button class="button button-dark dialog-done" type="button" data-i18n="dialog.done">Back to portfolio</button></div></dialog>
+</body>
+</html>
